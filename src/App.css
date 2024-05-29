@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar a.{
+  
+  background-color:rgb(159, 166, 158); ;
+  color: rgb(65, 105, 57);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-flex;
+  
+
+ }
+
+.navbar a:hover {
+  background-color: rgb(63, 65, 62);
+  color: rgb(235, 223, 223);
+}
+

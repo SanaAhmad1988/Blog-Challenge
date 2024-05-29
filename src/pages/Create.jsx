@@ -2,9 +2,11 @@ import { useState } from "react";
 
 import { useNavigate } from "react-router-dom"; 
 
+
+
  
 
-const CreatePages = () => { 
+const Create = () => { 
 
   const [title, setTitle] = useState(''); 
 
@@ -49,8 +51,9 @@ const CreatePages = () => {
       <h2>Add a New Blog</h2> 
 
       <form onSubmit={handleSubmit}> 
-
-        <label>Blog title:</label> 
+     <div> 
+        <label>Blog title:</label>
+        
 
         <input  
 
@@ -62,8 +65,9 @@ const CreatePages = () => {
 
           onChange={(e) => setTitle(e.target.value)} 
 
-        /> 
-
+        />  
+  </div>
+  <div>
         <label>Blog body:</label> 
 
         <textarea 
@@ -75,8 +79,8 @@ const CreatePages = () => {
           onChange={(e) => setBody(e.target.value)} 
 
         ></textarea> 
-
-        <label>Blog author:</label> 
+  </div>
+       <div> <label>Blog author:</label> 
 
         <input 
 
@@ -87,13 +91,12 @@ const CreatePages = () => {
           onChange={(e) => setAuthor(e.target.value)} 
 
         /> 
-
-           
+  </div>
 
         <button>Add Blog</button> 
 
       </form> 
-
+    
     </div> 
 
   ); 
@@ -102,4 +105,4 @@ const CreatePages = () => {
 
   
 
-export default CreatePages; 
+export default Create; 

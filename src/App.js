@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
-import CreatePages from './pages/CreatePages';
+import Create from './pages/Create';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
+import BlogDetails from './pages/BlogDetails';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
        <Navbar />
           <Routes>
              <Route path='/' element={<Home />} />
-             <Route path='/CreatePages' element={<CreatePages />} />
+             <Route path='/Create' element={<Create/>} />
+             <Route path='/Blog.id' element={<BlogDetails/>} />
         </Routes>
      </BrowserRouter>
    

@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 
 import BlogList from '../pages/BlogList';
 
+import BlogDetails from "./BlogDetails";
+
  
 
 const Home = () => { 
