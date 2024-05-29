@@ -44,6 +44,8 @@ const BlogDetails = () => {
 
   return ( 
 
+    
+
     <div className="blog-details"> 
 
       { blog && ( 
@@ -51,7 +53,6 @@ const BlogDetails = () => {
         <article> 
 
           <h2>{ blog.title }</h2> 
-          
 
           <p>Written by { blog.author }</p> 
 
@@ -68,4 +69,7 @@ const BlogDetails = () => {
   ); 
 
 } 
-export default BlogDetails;
+
+  
+
+export default BlogDetails; 

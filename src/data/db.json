@@ -1,33 +1,22 @@
-{ 
-
-  "blogs": [ 
-
-    { 
-
+{
+  "blogs": [
+    {
       "title": "Starting Data",
-
-      "body": "This is simply some text which will serve as a placeholder for the initial content of the blogs. It is pointless and meaningless other than serving a rendering purpose.", 
-
-      "author": "Dave", 
-
-      "id": 1 
-
-    }, 
-
-    { 
-
-      "title": "My Second Blog", 
-
       "body": "This is simply some text which will serve as a placeholder for the initial content of the blogs. It is pointless and meaningless other than serving a rendering purpose.",
-
-      "author": "Andy", 
-
-      "id": 2 
-
-    } 
-
- 
-
-  ] 
-
-} 
+      "author": "Dave",
+      "id": "1"
+    },
+    {
+      "title": "My Second Blog",
+      "body": "This is simply some text which will serve as a placeholder for the initial content of the blogs. It is pointless and meaningless other than serving a rendering purpose.",
+      "author": "Andy",
+      "id": "2"
+    },
+    {
+      "id": "ddf7",
+      "title": "Hello World",
+      "body": "Hello World !!!!!!",
+      "author": "Sana Ahmad"
+    }
+  ]
+}

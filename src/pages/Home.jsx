@@ -34,6 +34,9 @@ const Home = () => {
 
             { blogs && <BlogList blogs={blogs} />} 
 
+            
+         
+
         </div> 
 
      ); 
